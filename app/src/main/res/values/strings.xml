@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TaskNewVariable</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="status">
+        <item>IN PROGRESS</item>
+        <item>I AM STUCK</item>
+        <item>COMPLETED</item>
+    </string-array>
+</resources>

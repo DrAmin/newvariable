@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_user_eid"
+        android:layout_width="match_parent"
+        android:hint="Enter User Name:"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:id="@+id/et_user_pass"
+        android:layout_width="match_parent"
+        android:hint="Enter PassWord:"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:id="@+id/et_user_cpass"
+        android:layout_width="match_parent"
+        android:hint="Enter Confirm Pass:"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
