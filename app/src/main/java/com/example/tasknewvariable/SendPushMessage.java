@@ -2,6 +2,7 @@ package com.example.tasknewvariable;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -31,6 +32,7 @@ public class SendPushMessage extends AppCompatActivity {
         bt_send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Snackbar.make(v,"HEllo Clicked",Snackbar.LENGTH_LONG).show();
                 msg_t=String.valueOf(msg_title.getText());
                 msg_b=String.valueOf(msg_body.getText());
                 new SendNotification().execute();
